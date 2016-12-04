@@ -16,11 +16,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000011724064178}
-  - 33: {fileID: 33000010324007972}
-  - 23: {fileID: 23000011444800128}
+  - component: {fileID: 4000011724064178}
+  - component: {fileID: 33000010324007972}
+  - component: {fileID: 23000011444800128}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -33,9 +33,9 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000014026684092}
+  - component: {fileID: 4000014026684092}
   m_Layer: 0
   m_Name: Bullet Spawn
   m_TagString: Untagged
@@ -48,12 +48,12 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000013798005526}
-  - 33: {fileID: 33000013742754398}
-  - 65: {fileID: 65000013052465394}
-  - 23: {fileID: 23000014021645272}
+  - component: {fileID: 4000013798005526}
+  - component: {fileID: 33000013742754398}
+  - component: {fileID: 65000013052465394}
+  - component: {fileID: 23000014021645272}
   m_Layer: 0
   m_Name: Visor
   m_TagString: Untagged
@@ -66,11 +66,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010072069444}
-  - 33: {fileID: 33000010086603872}
-  - 23: {fileID: 23000011058256136}
+  - component: {fileID: 4000010072069444}
+  - component: {fileID: 33000010086603872}
+  - component: {fileID: 23000011058256136}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -83,11 +83,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000012786790614}
-  - 222: {fileID: 222000011107379354}
-  - 114: {fileID: 114000011657501602}
+  - component: {fileID: 224000012786790614}
+  - component: {fileID: 222000011107379354}
+  - component: {fileID: 114000011657501602}
   m_Layer: 5
   m_Name: Foreground
   m_TagString: Untagged
@@ -100,16 +100,16 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000011782360324}
-  - 54: {fileID: 54000011601699708}
-  - 136: {fileID: 136000010758426778}
-  - 114: {fileID: 114000013910240766}
-  - 114: {fileID: 114000010798907610}
-  - 114: {fileID: 114000012322518144}
-  - 114: {fileID: 114000012947256900}
-  - 114: {fileID: 114000011723485750}
+  - component: {fileID: 4000011782360324}
+  - component: {fileID: 54000011601699708}
+  - component: {fileID: 136000010758426778}
+  - component: {fileID: 114000013910240766}
+  - component: {fileID: 114000010798907610}
+  - component: {fileID: 114000012322518144}
+  - component: {fileID: 114000012947256900}
+  - component: {fileID: 114000011723485750}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -122,11 +122,11 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000011279961258}
-  - 222: {fileID: 222000013161251736}
-  - 114: {fileID: 114000014029080082}
+  - component: {fileID: 224000011279961258}
+  - component: {fileID: 222000013161251736}
+  - component: {fileID: 114000014029080082}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -139,13 +139,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010039103386}
-  - 20: {fileID: 20000012999396916}
-  - 81: {fileID: 81000013634301304}
-  - 114: {fileID: 114000011864831372}
-  - 124: {fileID: 124000013983458384}
+  - component: {fileID: 4000010039103386}
+  - component: {fileID: 20000012999396916}
+  - component: {fileID: 81000013634301304}
+  - component: {fileID: 114000011864831372}
+  - component: {fileID: 124000013983458384}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -158,13 +158,13 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000013499034468}
-  - 223: {fileID: 223000011797968286}
-  - 114: {fileID: 114000014048407198}
-  - 114: {fileID: 114000014284486736}
-  - 114: {fileID: 114000011971379184}
+  - component: {fileID: 224000013499034468}
+  - component: {fileID: 223000011797968286}
+  - component: {fileID: 114000014048407198}
+  - component: {fileID: 114000014284486736}
+  - component: {fileID: 114000011971379184}
   m_Layer: 5
   m_Name: Healthbar Canvas
   m_TagString: Untagged
@@ -181,12 +181,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000011724064178}
   - {fileID: 4000014026684092}
   m_Father: {fileID: 4000011782360324}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000010072069444
 Transform:
   m_ObjectHideFlags: 1
@@ -196,11 +196,11 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.00000016292068, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_Children:
   - {fileID: 4000013798005526}
   m_Father: {fileID: 4000011782360324}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4000011724064178
 Transform:
   m_ObjectHideFlags: 1
@@ -210,10 +210,10 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.5, y: -0.378, z: 0.5000001}
   m_LocalScale: {x: 0.25000012, y: 0.50000024, z: 0.25000012}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010039103386}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4000011782360324
 Transform:
   m_ObjectHideFlags: 1
@@ -223,13 +223,13 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
   m_LocalPosition: {x: 0, y: 1.16, z: 7.668}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000010039103386}
   - {fileID: 4000010072069444}
   - {fileID: 224000013499034468}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000013798005526
 Transform:
   m_ObjectHideFlags: 1
@@ -239,10 +239,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0.24}
   m_LocalScale: {x: 0.95, y: 0.25, z: 0.5}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010072069444}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000014026684092
 Transform:
   m_ObjectHideFlags: 1
@@ -252,10 +252,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.49999997, y: -0.424, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010039103386}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20000012999396916
 Camera:
   m_ObjectHideFlags: 1
@@ -304,7 +304,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 6c30594393b914b488efbd092b64317a, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -312,7 +314,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -333,7 +335,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3989db61fce5b5446874ad2f48f0198f, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -341,7 +345,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -362,7 +366,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: 3989db61fce5b5446874ad2f48f0198f, type: 2}
-  m_SubsetIndices: 
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
@@ -370,7 +376,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -514,27 +520,32 @@ MonoBehaviour:
     Bobcurve:
       serializedVersion: 2
       m_Curve:
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
-      - time: 0.5
+      - serializedVersion: 2
+        time: 0.5
         value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
-      - time: 1
+      - serializedVersion: 2
+        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
-      - time: 1.5
+      - serializedVersion: 2
+        time: 1.5
         value: -1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
-      - time: 2
+      - serializedVersion: 2
+        time: 2
         value: 0
         inSlope: 0
         outSlope: 0
@@ -634,17 +645,20 @@ MonoBehaviour:
     SlopeCurveModifier:
       serializedVersion: 2
       m_Curve:
-      - time: -90
+      - serializedVersion: 2
+        time: -90
         value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
-      - time: 0
+      - serializedVersion: 2
+        time: 0
         value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
-      - time: 90
+      - serializedVersion: 2
+        time: 90
         value: 0
         inSlope: 0
         outSlope: 0
@@ -792,11 +806,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224000012786790614}
   m_Father: {fileID: 224000013499034468}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -811,10 +825,10 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 224000011279961258}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 50, y: 0}
@@ -829,11 +843,11 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000016292068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 224000011279961258}
   m_Father: {fileID: 4000011782360324}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 1.5}
