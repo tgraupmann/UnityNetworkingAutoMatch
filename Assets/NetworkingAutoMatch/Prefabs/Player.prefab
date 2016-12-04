@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4000011724064178}
   - component: {fileID: 33000010324007972}
   - component: {fileID: 23000011444800128}
-  - component: {fileID: 114346299753157402}
-  - component: {fileID: 114573574086266176}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -148,6 +146,8 @@ GameObject:
   - component: {fileID: 81000013634301304}
   - component: {fileID: 114000011864831372}
   - component: {fileID: 124000013983458384}
+  - component: {fileID: 114582767754255396}
+  - component: {fileID: 114838262278377892}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -748,12 +748,12 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &114346299753157402
+--- !u!114 &114582767754255396
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010211920252}
+  m_GameObject: {fileID: 1000013126220880}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
@@ -780,12 +780,12 @@ MonoBehaviour:
     i15: 209
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114573574086266176
+--- !u!114 &114838262278377892
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010211920252}
+  m_GameObject: {fileID: 1000013126220880}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1768714887, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
