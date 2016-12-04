@@ -71,7 +71,7 @@ namespace NetworkingAutoMatch
                 Debug.Log(string.Format("Server Player: {0}", netId.Value));
                 if (_mCamera)
                 {
-                    _mCamera.gameObject.SetActive(false);
+                    _mCamera.enabled = false;
                 }
                 if (_mController)
                 {
