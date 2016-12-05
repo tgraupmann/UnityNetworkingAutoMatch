@@ -111,6 +111,8 @@ GameObject:
   - component: {fileID: 114000012947256900}
   - component: {fileID: 114000011723485750}
   - component: {fileID: 114370208162078378}
+  - component: {fileID: 114539885756990202}
+  - component: {fileID: 114440363521763914}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -457,6 +459,8 @@ MonoBehaviour:
   _mMeshVisor: {fileID: 23000014021645272}
   _mCamera: {fileID: 20000012999396916}
   _mController: {fileID: 114000013910240766}
+  _mAudioListener: {fileID: 81000013634301304}
+  _mHeadBob: {fileID: 114000011864831372}
   _mIdentity: {fileID: 114000012322518144}
   _mBulletPrefab: {fileID: 1000013979293866, guid: 2e64a988efb1ba646bba26f1eda9feb4,
     type: 2}
@@ -760,6 +764,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Target: {fileID: 4000010039103386}
   m_ChildIndex: 0
+  m_SendInterval: 0
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
+--- !u!114 &114440363521763914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012185195978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1267208747, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 4000014026684092}
+  m_ChildIndex: 2
+  m_SendInterval: 0
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_MovementThreshold: 0.001
+  m_InterpolateRotation: 0.5
+  m_InterpolateMovement: 0.5
+--- !u!114 &114539885756990202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012185195978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1267208747, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Target: {fileID: 4000011724064178}
+  m_ChildIndex: 1
   m_SendInterval: 0
   m_SyncRotationAxis: 7
   m_RotationSyncCompression: 0

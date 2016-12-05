@@ -15,6 +15,8 @@ namespace NetworkingAutoMatch
         public MeshRenderer _mMeshVisor = null;
         public Camera _mCamera = null;
         public RigidbodyFirstPersonController _mController = null;
+        public AudioListener _mAudioListener = null;
+        public HeadBob _mHeadBob = null;
         public NetworkIdentity _mIdentity = null;
         public GameObject _mBulletPrefab = null;
         public Transform _mBulletSpawn = null;
@@ -76,6 +78,14 @@ namespace NetworkingAutoMatch
                 if (_mController)
                 {
                     _mController.enabled = false;
+                }
+                if (_mAudioListener)
+                {
+                    _mAudioListener.enabled = false;
+                }
+                if (_mHeadBob)
+                {
+                    _mHeadBob.enabled = false;
                 }
                 if (_mMeshPlayer)
                 {
